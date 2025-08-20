@@ -1,0 +1,65 @@
+# Create a new Vite React project
+npm create vite@latest frontend
+
+
+# Choose:
+# - Framework: React
+# - Variant: JavaScript
+
+
+cd frontend
+
+# Install dependencies
+npm install
+
+=============================================================================
+=============================================================================
+Packages need to install 
+
+
+# React Router for navigation
+npm install react-router-dom
+
+# Axios for API calls (for backend later)
+npm install axios
+
+# Google Maps (About Us page)
+npm install @react-google-maps/api
+
+# EmailJS for Gmail/Contact form (easy frontend email integration)
+npm install emailjs-com
+
+==============================================================================
+==============================================================================
+
+
+inside frontend
+private-class-website/
+└─ src/
+   ├─ assets/
+   │  └─ achievements/
+   │     ├─ science-fair/
+   │     │  ├─ 1.jpg
+   │     │  ├─ 2.jpg
+   │     │  └─ 3.jpg
+   │     ├─ math-olympiad/
+   │     │  ├─ 1.jpg
+   │     │  ├─ 2.jpg
+   │     │  └─ 3.jpg
+   │     └─ sports-day/
+   │        ├─ 1.jpg
+   │        ├─ 2.jpg
+   │        └─ 3.jpg
+   ├─ components/
+   │  ├─ Navbar.jsx
+   │  └─ Footer.jsx
+   ├─ pages/
+   │  ├─ Home.jsx
+   │  ├─ About.jsx
+   │  ├─ Achievements.jsx
+   │  ├─ Feedback.jsx
+   │  └─ Contact.jsx
+   ├─ utils/
+   │  └─ api.js
+   ├─ App.jsx
+   └─ main.jsx
