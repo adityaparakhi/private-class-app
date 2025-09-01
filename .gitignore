@@ -1,0 +1,16 @@
+# Frontend (React)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+
+# Backend (Spring Boot)
+backend/target/
+backend/.mvn/
+backend/mvnw*
+backend/*.iml
+backend/.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
